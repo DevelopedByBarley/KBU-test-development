@@ -59,6 +59,18 @@
 [data-bs-theme=dark] .dark-border-main-blue {
   border-color: #004785 !important;
 }
+[data-bs-theme=dark] .dark-bg-light-blue {
+  background-color: #3A7EBA !important;
+}
+[data-bs-theme=dark] .dark-bg-hover-light-blue:hover {
+  background-color: #3A7EBA !important;
+}
+[data-bs-theme=dark] .dark-text-light-blue {
+  color: #3A7EBA !important;
+}
+[data-bs-theme=dark] .dark-border-light-blue {
+  border-color: #3A7EBA !important;
+}
 [data-bs-theme=dark] .dark-bg-blue-50 {
   background-color: #eff6ff !important;
 }
@@ -2723,6 +2735,18 @@
 }
 [data-bs-theme=light] .light-border-main-blue {
   border-color: #004785 !important;
+}
+[data-bs-theme=light] .light-bg-light-blue {
+  background-color: #3A7EBA !important;
+}
+[data-bs-theme=light] .light-bg-hover-light-blue:hover {
+  background-color: #3A7EBA !important;
+}
+[data-bs-theme=light] .light-text-light-blue {
+  color: #3A7EBA !important;
+}
+[data-bs-theme=light] .light-border-light-blue {
+  border-color: #3A7EBA !important;
 }
 [data-bs-theme=light] .light-bg-blue-50 {
   background-color: #eff6ff !important;
@@ -5997,6 +6021,10 @@
   background-color: #004785 !important;
 }
 
+.bg-light-blue {
+  background-color: #3A7EBA !important;
+}
+
 .bg-blue-50 {
   background-color: #eff6ff !important;
 }
@@ -6883,6 +6911,10 @@
 
 .border-main-blue {
   border-color: #004785 !important;
+}
+
+.border-light-blue {
+  border-color: #3A7EBA !important;
 }
 
 .border-blue-50 {
@@ -7773,6 +7805,10 @@
   color: #004785;
 }
 
+.light-blue {
+  color: #3A7EBA;
+}
+
 .blue-50 {
   color: #eff6ff;
 }
@@ -8659,6 +8695,10 @@
 
 .hover-bg-main-blue:hover {
   background-color: #004785 !important;
+}
+
+.hover-bg-light-blue:hover {
+  background-color: #3A7EBA !important;
 }
 
 .hover-bg-blue-50:hover {
@@ -9549,6 +9589,10 @@
   color: #004785;
 }
 
+.hover-light-blue:hover {
+  color: #3A7EBA;
+}
+
 .hover-blue-50:hover {
   color: #eff6ff;
 }
@@ -10435,6 +10479,10 @@
 
 .hover-border-main-blue:hover {
   border-color: #004785 !important;
+}
+
+.hover-border-light-blue:hover {
+  border-color: #3A7EBA !important;
 }
 
 .hover-border-blue-50:hover {

@@ -9,7 +9,7 @@
   <title><?php APP_NAME ?></title>
 </head>
 
-<body class="bg-gray-50 dark-bg-main-blue">
+<body class="bg-gray-50 dark-bg-main-blue transition-ease-in-out-300">
   <?php include 'app/Views/public/components/Navbar.php' ?>
   <?php include 'app/Views/public/components/Alert.php' ?>
   

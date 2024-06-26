@@ -1,16 +1,59 @@
+<nav class="navbar fixed fixed-top bg-main-gray navbar-expand-lg navbar-light py-3">
+  <div class="container-fluid">
+    <a class="navbar-brand max-w-200" href="#">
+      <img src="/public/assets/images/icons/logo.png" class="img-fluid w-100" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-xl-flex w-100 align-items-xl-center justify-content-end">
+        <li class="nav-item ">
+          <a class="nav-link main-blue  mx-lg-3" href="/">MENEKÜLÉSI ÚTVONAL</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link main-blue  mx-lg-3" href="/">HELYSZÍNTÉRKÉP</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link main-blue  mx-lg-3" href="/">PONTOZÁS</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link main-blue  mx-lg-3" href="/">JELENTKEZÉS</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link main-blue mx-lg-3" href="/">IMPRESSZUM</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link main-blue" href="/">
+            <div class="d-flex  align-items-center justify-content-center mx-2  mb-1">
+
+              <div class="form-check form-switch">
+                <input class="form-check-input text-xl " type="checkbox" role="switch" id="theme-toggle">
+              </div>
+              <i class="fa-regular fa-moon text-2xl text-dark"></i>
+            </div>
+          </a>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
 <?php $csrf = $params['csrf'] ?? null ?>
 
 
 
 
-<nav class="navbar navbar-expand-lg border-bottom fixed-top pr-font bg-main-gray  py-3" id="navbar">
+<!-- <nav class="navbar navbar-expand-xl border-bottom fixed-top pr-font bg-main-gray  py-3" id="navbar">
   <div>
     <a class="navbar-brand" href="/">
       <img src="/public/assets/images/icons/logo.png" class="img-fluid w-75" alt="">
     </a>
-    <button class="navbar-toggler border-gray-400 mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fa-solid fa-bars text-dark text-2xl"></i> </button>
   </div>
+  <button class="navbar-toggler border-gray-400 mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa-solid fa-bars text-dark text-2xl"></i> </button>
 
   <div class="w-100">
     <div class="collapse navbar-collapse px-3  d-xl-flex align-items-center justify-content-end" id="navbarSupportedContent">
@@ -50,7 +93,7 @@
             <a class="nav-link main-blue  mx-lg-3" href="/">JELENTKEZÉS</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link main-blue " href="/">IMPRESSZUM</a>
+            <a class="nav-link main-blue mx-lg-3" href="/">IMPRESSZUM</a>
           </li>
         </ul>
         <div class="d-flex  align-items-center justify-content-center  p-xl-3  mx-xl-5 mb-1">
@@ -64,4 +107,4 @@
       <?php endif ?>
     </div>
   </div>
-</nav>
+</nav> -->
