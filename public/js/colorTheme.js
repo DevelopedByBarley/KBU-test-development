@@ -1,5 +1,7 @@
 const themeToggle = document.getElementById('theme-toggle') || null;
 
+console.log(themeToggle)
+
 window.onload = () => {
     let defaultTheme = localStorage.getItem('theme') || document.documentElement.getAttribute('data-bs-theme');
     if (defaultTheme === 'dark') {
@@ -9,7 +11,8 @@ window.onload = () => {
 }
 
 if(themeToggle) {
-    themeToggle.onchange = () => {
+    themeToggle.onchange = (e) => {
+        e.preventDefault();
         let defaultTheme = localStorage.getItem('theme') || document.documentElement.getAttribute('data-bs-theme');
         let theme = setColorTheme(defaultTheme);
         localStorage.setItem('theme', theme);

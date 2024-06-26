@@ -21,18 +21,21 @@
           <a class="nav-link main-blue  mx-lg-3" href="/">JELENTKEZÉS</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link main-blue mx-lg-3" href="/">IMPRESSZUM</a>
+          <a class="nav-link main-blue mx-3 mx-lg-0" href="/">IMPRESSZUM</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link main-blue" href="/">
-            <div class="d-flex  align-items-center justify-content-center mx-2  mb-1">
-
+          
+            <div class="d-flex  align-items-center justify-content-center">
               <div class="form-check form-switch">
-                <input class="form-check-input text-xl " type="checkbox" role="switch" id="theme-toggle">
+                <input type="checkbox" class="form-check-input checkbox text-2xl" role="switch" id="theme-toggle">
+                <label for="theme-toggle" class="dark-bg-sky-700 bg-gray-300 checkbox-label">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                  <span class="ball"></span>
+                </label>
               </div>
-              <i class="fa-regular fa-moon text-2xl text-dark"></i>
             </div>
-          </a>
+          
         </li>
         </li>
       </ul>
