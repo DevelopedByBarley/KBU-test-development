@@ -1,7 +1,7 @@
 <!-- Header-->
 <div class="container-fluid px-lg-5  mt-5 ">
-    <div class="row align-items-center justify-content-center vh-100">
-        <div class="col-12 col-xl-7 col-xxl-5 px-5 d-flex align-items-center justify-content-center justify-content-xl-end ">
+    <div class="row align-items-center justify-content-center min-h-95">
+        <div class="col-12 col-xl-7 col-xxl-6 px-5 d-flex align-items-center justify-content-center ">
             <div class="my-5 text-center text-xl-start">
                 <h1 class="fw-bolder fw-bolder display-1">KNORR BREMSE</h1>
                 <h2 class="fw-bolder  display-5">Sportnap</h2>
@@ -21,87 +21,137 @@
 </header>
 
 <div class="side-nav d-none d-xl-flex align-items-center justify-content-around dark-bg-main-blue bg-gray-50">
-    <a href="#location" class="text-decoration-none  text-main-blue dark-text-gray-50">Helyszín</a>
+    <a href="#location" class="text-decoration-none  text-main-blue dark-text-gray-50">Regisztráció</a>
     <a href="#rules" class="text-decoration-none  text-main-blue dark-text-gray-50">Szabályzat</a>
-    <a href="#program" class="text-decoration-none text-main-blue dark-text-gray-50">Program</a>
-</div>
-
-<!-- Features section-->
-<section class="py-5" id="features">
-    <div class="container px-5 my-5">
-        <div class="row gx-5">
-            <div class="col-lg-4 mb-5 mb-lg-0">
-                <h2 class="fw-bolder mb-0">A better way to start building.</h2>
-            </div>
-            <div class="col-lg-8">
-                <div class="row gx-5 row-cols-1 row-cols-md-2">
-                    <div class="col mb-5 h-100">
-                        <div class="feature  bg-gradient  rounded-3 mb-3"><i class="bi bi-bell"></i></div>
-                        <h2 class="h5">Toast Notifications</h2>
-                        <p class="mb-0">Easily display toast notifications to provide feedback to users.</p>
-                    </div>
-                    <div class="col mb-5 h-100">
-                        <div class="feature  bg-gradient  rounded-3 mb-3"><i class="bi bi-shield-lock"></i></div>
-                        <h2 class="h5">Authentication</h2>
-                        <p class="mb-0">Secure user authentication to protect your application.</p>
-                    </div>
-                    <div class="col mb-5 mb-md-0 h-100">
-                        <div class="feature  bg-gradient  rounded-3 mb-3"><i class="bi bi-lock"></i></div>
-                        <h2 class="h5">CSRF Token Handling</h2>
-                        <p class="mb-0">Built-in CSRF token handling to secure your forms.</p>
-                    </div>
-                    <div class="col h-100">
-                        <div class="feature  bg-gradient  rounded-3 mb-3"><i class="bi bi-file-earmark"></i></div>
-                        <h2 class="h5">FileSaver</h2>
-                        <p class="mb-0">Save files directly from your application.</p>
-                    </div>
-                    <div class="col h-100">
-                        <div class="feature  bg-gradient  rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
-                        <h2 class="h5">Mailer</h2>
-                        <p class="mb-0">Send emails easily with our built-in mailer.</p>
-                    </div>
-                    <div class="col h-100">
-                        <div class="feature  bg-gradient  rounded-3 mb-3"><i class="bi bi-file-earmark-excel"></i></div>
-                        <h2 class="h5">XLSX Export</h2>
-                        <p class="mb-0">Export your data to XLSX format with ease.</p>
-                    </div>
-                    <div class="col h-100">
-                        <div class="feature  bg-gradient  rounded-3 mb-3"><i class="bi bi-check-circle"></i></div>
-                        <h2 class="h5">Validation</h2>
-                        <p class="mb-0">Validate your data effortlessly.</p>
-                    </div>
-                    <div class="col h-100">
-                        <div class="feature  bg-gradient  rounded-3 mb-3"><i class="bi bi-blockquote-right"></i></div>
-                        <h2 class="h5">Skeleton</h2>
-                        <p class="mb-0">Use our skeleton loading for a better UX.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Testimonial section-->
-<div class="py-5">
-    <div class="container px-5 my-5">
-        <div class="row gx-5 justify-content-center">
-            <div class="col-lg-10 col-xl-7">
-                <div class="text-center">
-                    <div class="fs-4 mb-4 fst-italic">"Using this MVC framework with bootstrap and create awesome projects!"</div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <a href="#programs" class="text-decoration-none text-main-blue dark-text-gray-50">Program</a>
 </div>
 
 
 
-<div class="container">
+<div class="container mt-5 mt-lg-0" id="programs">
     <div class="row">
-        <div class="col-12 col-lg-6 min-h-600 bg-teal-500">
-            <div class="bg-fuchsia-400  hover-slate-50 mb-10 px-8 rounded-0  border-green-100 hover-border-teal-400 transition-ease-in-out-100">dsad</div>
+        <div class="col-12">
+            <h1 class="fw-bolder light-text-main-blue display-5">Programok</h1>
+        </div>
+        <div class="col-12 col-lg-6">
+            <!-- Section: Timeline -->
+            <section class="py-5">
+                <ul class="timeline">
+                    <li class="timeline-item mb-5">
+                        <h5 class="fw-bold">Our company starts its operations</h5>
+                        <p class="text-muted mb-2 fw-bold">11 March 2020</p>
+                        <p class="text-muted">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                            necessitatibus adipisci, ad alias, voluptate pariatur officia
+                            repellendus repellat inventore fugit perferendis totam dolor
+                            voluptas et corrupti distinctio maxime corporis optio?
+                        </p>
+                    </li>
+
+                    <li class="timeline-item mb-5">
+                        <h5 class="fw-bold">First customer</h5>
+                        <p class="text-muted mb-2 fw-bold">19 March 2020</p>
+                        <p class="text-muted">
+                            Quisque ornare dui nibh, sagittis egestas nisi luctus nec. Sed
+                            aliquet laoreet sapien, eget pulvinar lectus maximus vel.
+                            Phasellus suscipit porta mattis.
+                        </p>
+                    </li>
+
+                    <li class="timeline-item mb-5">
+                        <h5 class="fw-bold">Our team exceeds 10 people</h5>
+                        <p class="text-muted mb-2 fw-bold">24 June 2020</p>
+                        <p class="text-muted">
+                            Orci varius natoque penatibus et magnis dis parturient montes,
+                            nascetur ridiculus mus. Nulla ullamcorper arcu lacus, maximus
+                            facilisis erat pellentesque nec. Duis et dui maximus dui aliquam
+                            convallis. Quisque consectetur purus erat, et ullamcorper sapien
+                            tincidunt vitae.
+                        </p>
+                    </li>
+
+                    <li class="timeline-item mb-5">
+                        <h5 class="fw-bold">Earned the first million $!</h5>
+                        <p class="text-muted mb-2 fw-bold">15 October 2020</p>
+                        <p class="text-muted">
+                            Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed
+                            et urna sit amet massa dapibus tristique non finibus ligula. Nam
+                            pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit
+                            vulputate mattis.
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <!-- Section: Timeline -->
+        </div>
+        <div class="col-12 col-lg-6">
+            <div class="row">
+                <div class="col-6">
+                    <img src="/public/assets/images/polaroid1.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-6">
+                    <img src="/public/assets/images/polaroid2.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-6">
+                    <img src="/public/assets/images/polaroid3.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-6">
+                    <img src="/public/assets/images/polaroid4.png" class="img-fluid" alt="">
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
+
+<div id="first-info" class="gray-50 dark-text-main-blue bg-gray-50 light-bg-main-blue min-h-400 mt-8">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="min-h-400 d-flex align-items-center justify-content-center flex-column p-3">
+                    <p class="text-xl fw-bold">
+                        Transzfer lehetőség: A Knorr-Bremse telephelyről (1238 Budapest, Helsinki út 105.) a
+                        Sport11-hez indítunk igény szerint buszjáratot. A buszok 7:00-kor indulnak a telephelyről a
+                        Sportnap helyszínére, majd 14:45-kor visszafele. Kérjük, aki a regisztráció során igényelt transzfert, pontosan érkezzen.
+                    </p>
+                    <p class="text-xl red-500 fw-bold">
+                        Kérünk mindenkit, használjátok a transzfer lehetőséget,
+                        a tömegközlekedést, vagy érkezzetek egy autóval többen,
+                        mert erősen korlátozott a parkolóhelyek száma. Tömegközlekedési lehetőség
+                        a helyszínre: 41-es villamos, vagy 187-es busz Kelenföldről (Őrmező felőli oldal)
+                    </p>
+                </div>
+
+                <div class="min-h-300 bg-gray-50 light-bg-main-blue border-0 skew" style="clip-path: polygon(0 0, 0 53%, 100% 0);">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="min-h-500"></div>
+
+
+<div id="second-info" class="gray-50 dark-text-main-blue bg-gray-50 light-bg-main-blue min-h-400 mt-8">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="min-h-400 d-flex justify-content-center flex-column">
+                    <p class="text-xl fw-bold">
+                        A sportbajnokságok meccseinek időbeosztása a regisztráció lezárulását
+                        követően lesz elérhető Actimón, Intraneten és a csapatkapitányoknál.
+
+                    </p>
+                    <p class="text-xl fw-bold">
+                        Azok a csapatok, akik nem jelennek meg a kiírt meccsük kezdési időpontjáig,
+                        automatikusan elveszítik az adott mérkőzést.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 
@@ -142,5 +192,53 @@
         a {
             font-weight: bolder;
         }
+    }
+
+    .timeline {
+        border-left: 1px solid hsl(0, 0%, 90%);
+        position: relative;
+        list-style: none;
+    }
+
+    .timeline .timeline-item {
+        position: relative;
+    }
+
+    .timeline .timeline-item:after {
+        position: absolute;
+        display: block;
+        top: 0;
+    }
+
+    .timeline .timeline-item:after {
+        background-color: hsl(0, 0%, 90%);
+        left: -38px;
+        border-radius: 50%;
+        height: 11px;
+        width: 11px;
+        content: "";
+    }
+
+    #first-info {
+        position: relative;
+    }
+
+    #first-info .skew {
+        position: absolute;
+        bottom: -299px;
+        left: 0;
+        right: 0;
+        clip-path: polygon(0 0, 0 53%, 100% 0);
+
+    }
+
+    .mosaic {
+        position: relative;
+    }
+
+    .mosaic .content {
+        position: absolute;
+        left: 0;
+        top: 0;
     }
 </style>
