@@ -21,9 +21,9 @@
 </header>
 
 <div class="side-nav d-none d-xl-flex align-items-center justify-content-around">
-    <a href="#register" class="text-decoration-none  text-main-blue dark-text-gray-50">Regisztráció</a>
-    <a href="#rule-tiles" class="text-decoration-none  text-main-blue dark-text-gray-50">Szabályzat</a>
-    <a href="#programs" class="text-decoration-none text-main-blue dark-text-gray-50">Program</a>
+    <a href="#register" class="text-decoration-none main-blue dark-text-gray-50">Regisztráció</a>
+    <a href="#rule-tiles" class="text-decoration-none main-blue dark-text-gray-50">Szabályzat</a>
+    <a href="#programs" class="text-decoration-none main-blue dark-text-gray-50">Program</a>
 </div>
 
 
@@ -86,17 +86,25 @@
         </div>
         <div class="col-12 col-lg-6">
             <div class="row">
-                <div class="col-6">
-                    <img src="/public/assets/images/polaroid1.png" class="img-fluid" alt="">
+                <div class="col-6 my-2">
+                    <div class="blur-load">
+                        <img src="/public/assets/images/polaroid1.png" loading="lazy" class="img-fluid program-img" alt="">
+                    </div>
                 </div>
-                <div class="col-6">
-                    <img src="/public/assets/images/polaroid2.png" class="img-fluid" alt="">
+                <div class="col-6 my-2">
+                    <div class="blur-load">
+                        <img src="/public/assets/images/polaroid2.png" loading="lazy" class="img-fluid program-img" alt="">
+                    </div>
                 </div>
-                <div class="col-6">
-                    <img src="/public/assets/images/polaroid3.png" class="img-fluid" alt="">
+                <div class="col-6 my-2">
+                    <div class="blur-load">
+                        <img src="/public/assets/images/polaroid3.png" loading="lazy" class="img-fluid program-img" alt="">
+                    </div>
                 </div>
-                <div class="col-6">
-                    <img src="/public/assets/images/polaroid4.png" class="img-fluid" alt="">
+                <div class="col-6 my-2">
+                    <div class="blur-load">
+                        <img src="/public/assets/images/polaroid4.png" loading="lazy" class="img-fluid program-img" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -140,7 +148,9 @@
     </div>
     <div class="row gap-4 d-flex align-items-center justify-content-center " id="tiles">
         <div class="col-12 col-xl-5 tile p-0 rounded-4 shadow">
-            <img class="img-fluid img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
+            <div class="blur-load">
+                <img class="img-fluid img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
+            </div>
             <div class="wrapper  h-100 bg-main-blue opacity-50"></div>
             <div class="content w-75">
                 <h1 class="text-white text-center py-3">Foci</h1>
@@ -157,7 +167,9 @@
             </div>
         </div>
         <div class="col-12 col-xl-5 tile p-0  rounded-4 shadow">
-            <img class="img-fluid img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
+            <div class="blur-load">
+                <img class="img-fluid img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
+            </div>
             <div class="wrapper  h-100 bg-main-blue opacity-50"></div>
             <div class="content w-75">
                 <h1 class="text-white text-center py-3">Foci</h1>
@@ -174,7 +186,9 @@
             </div>
         </div>
         <div class="col-12 col-xl-5 tile p-0  rounded-4 shadow">
-            <img class="img-fluid img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
+            <div class="blur-load">
+                <img class="img-fluid img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
+            </div>
             <div class="wrapper  h-100 bg-main-blue opacity-50"></div>
             <div class="content w-75">
                 <h1 class="text-white text-center py-3">Foci</h1>
@@ -191,7 +205,9 @@
             </div>
         </div>
         <div class="col-12 col-xl-5 tile p-0  rounded-4 shadow">
-            <img class="img-fluid img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
+            <div class="blur-load">
+                <img class="img-fluid img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
+            </div>
             <div class="wrapper  h-100 bg-main-blue opacity-50"></div>
             <div class="content w-75">
                 <h1 class="text-white text-center py-3">Foci</h1>
@@ -327,6 +343,17 @@
     .support a:hover {
         transform: scale(1.1);
     }
+
+
+    .program-img {
+        transition: all .4s ease-in-out;
+
+    }
+
+    .program-img:hover {
+        transform: scale(1.05) rotate(-5deg) translateY(-5%);
+        box-shadow: #292c35;
+    }
 </style>
 
 
@@ -341,9 +368,39 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Jelentkezési útmutató<i class="fa-solid fa-circle-exclamation text-3xl mx-2 amber-500"></i>
+                            </button>
+
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p class="fw-bolder">
+                                    Kedves Kollégák,
+                                </p>
+                                <p>
+                                    Szeretnénk felhívni figyelmeteket, hogy a sportnapon való részvételnél az egészségi állapototoknak megfelelő aktivitást válasszatok.
+                                    A sportnapon való részvétel regisztrációjával egyben kinyilvánításra kerül, hogy nincs olyan ismert megbetegedésed, amely az általad választott sportágban, az intenzívebb mozgás által, annak következményeként az egészségi állapotodban rosszabbodást okozna.
+                                    A sportbajnokságokra és minden regisztrációhoz kötött programra a jelentkezéseket érkezési sorrendben fogadjuk.
+                                    A rendezvényre csak egy alkalommal van lehetőség regisztrálni, módosításra nincs lehetőség.
+                                    Minden munkavállaló maximum 2 sportbajnokságra jelentkezhet - 1 csapatsport és 1 páros sport vagy sakk.
+                                    A csoportos órákra a helyszínen lehet majd jelentkezni, érkezési sorrendben.
+                                    Előfordulhat, hogy a céges levelezési rendszerünk a regisztráció visszaigazolását automatikusan karanténba helyezi, ezért azokat néhány órás késéssel kapjátok meg a karanténoldalon keresztül.</p>
+                                <p class="green-500">
+                                    Szeretnénk felhívni figyelmeteket, hogy a sportnapon való részvételnél az egészségi állapototoknak megfelelő aktivitást válasszatok. A sportnapon való részvétel regisztrációjával egyben kinyilvánításra kerül, hogy nincs olyan ismert megbetegedésed, amely az általad választott sportágban, az intenzívebb mozgás által, annak következményeként az egészségi állapotodban rosszabbodást okozna.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="mt-5">
                 <form>
                     <!-- 2 column grid layout with text inputs for the first and last names -->
-                    <div class="row mb-4">
+                    <div class="row mb-4 mt-4">
                         <div class="col">
                             <div data-mdb-input-init class="form-outline">
                                 <label class="form-label" for="form6Example1">Név</label>
@@ -394,19 +451,34 @@
                     </div>
 
                     <!-- Checkbox -->
-                    <div class="form-check d-flex justify-content-center mb-4">
-                        <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
-                        <label class="form-check-label" for="form6Example8"> Create an account? </label>
+                    <div class="form-check d-flex mb-4">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" />
+                        <label class="form-check-label" for="form6Example8"> Elolvastam a jelentkezési útmutatót.</label>
                     </div>
+                    <div class="form-check d-flex mb-4">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" />
+                        <label class="form-check-label" for="form6Example8"> A jelen Adatkezelési Tájékoztató tartalmát megismertem, megértettem és elfogadom.</label>
+                    </div>
+                    <div class="form-check d-flex mb-4">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" />
+                        <label class="form-check-label" for="form6Example8">
 
-                    <!-- Submit button -->
-                    <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Place order</button>
+                            A jelen Adatkezelési Tájékoztató ismeretében hozzájárulok ahhoz, hogy a Felvételeket,
+                            a nevemet, a tartózkodási helyemet, valamint beosztásomat, mint személyes adataimat az Adatkezelő,
+                            a Felvételek felhasználása során, saját marketing és promóciós céljai elérése érdekében
+                            az Általános Adatvédelmi Rendelet (General Data Protection Regulation, továbbiakban GDPR),
+                            valamint az információs önrendelkezési jogról és az információszabadságról 2011. évi CXII.
+                            törvény rendelkezéseinek megfelelően kezelje és megbízottjaihoz, mint adatfeldolgozókhoz továbbítsa
+
+                        </label>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
                 </form>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
+
             <div>
                 <img src="/public/assets/images/icons/logo.png" alt="">
 
@@ -498,7 +570,6 @@
     }
 
     #rule-tiles #tiles .tile {
-        background-color: red;
         position: relative;
         z-index: 9;
         overflow: hidden;
