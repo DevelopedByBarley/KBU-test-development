@@ -156,10 +156,48 @@
 			</h1>
 		</div>
 	</div>
-	<div class="row gap-4 d-flex align-items-center justify-content-center " id="tiles">
-		<div class="col-12 col-xl-5 tile p-0 rounded-4 shadow">
+	<div class="row gap-4 d-flex align-items-center justify-content-center" id="tiles">
+		<div class="col-12 col-xl-5 tile p-0 rounded-4 shadow min-h-300">
 			<div class="blur-load">
-				<img class="img-fluid img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
+				<img class="img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
+			</div>
+			<div class="wrapper h-100 bg-main-blue opacity-50"></div>
+			<div class="content w-75">
+				<h1 class="text-white text-center py-3">Foci</h1>
+				<p class="text-white">
+					Foci – 5+1 fő/csapat + maximum 4 csere, 2*12
+					perces meccsekkel (a jelentkező csapatok
+					számától függően több csoportban körmérkőzést
+					szervezünk, majd a legjobb 8 csapat kieséses
+					rendszerben játszik tovább egészen a döntőkig)
+				</p>
+				<div class="btn btn-outline-warning rounded-0 btn-xl-lg mb-2">
+					Játékszabály
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-xl-5 tile p-0  rounded-4 shadow">
+			<div class="blur-load">
+				<img class="img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
+			</div>
+			<div class="wrapper h-100 bg-main-blue opacity-50"></div>
+			<div class="content w-75">
+				<h1 class="text-white text-center py-3">Foci</h1>
+				<p class="text-white">
+					Foci – 5+1 fő/csapat + maximum 4 csere, 2*12
+					perces meccsekkel (a jelentkező csapatok
+					számától függően több csoportban körmérkőzést
+					szervezünk, majd a legjobb 8 csapat kieséses
+					rendszerben játszik tovább egészen a döntőkig)
+				</p>
+				<div class="btn btn-outline-warning rounded-0 btn-xl-lg mb-2">
+					Játékszabály
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-xl-5 tile p-0  rounded-4 shadow">
+			<div class="blur-load">
+				<img class="img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
 			</div>
 			<div class="wrapper  h-100 bg-main-blue opacity-50"></div>
 			<div class="content w-75">
@@ -178,45 +216,7 @@
 		</div>
 		<div class="col-12 col-xl-5 tile p-0  rounded-4 shadow">
 			<div class="blur-load">
-				<img class="img-fluid img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
-			</div>
-			<div class="wrapper  h-100 bg-main-blue opacity-50"></div>
-			<div class="content w-75">
-				<h1 class="text-white text-center py-3">Foci</h1>
-				<p class="text-white">
-					Foci – 5+1 fő/csapat + maximum 4 csere, 2*12
-					perces meccsekkel (a jelentkező csapatok
-					számától függően több csoportban körmérkőzést
-					szervezünk, majd a legjobb 8 csapat kieséses
-					rendszerben játszik tovább egészen a döntőkig)
-				</p>
-				<div class="btn btn-outline-warning rounded-0 btn-xl-lg mb-2">
-					Játékszabály
-				</div>
-			</div>
-		</div>
-		<div class="col-12 col-xl-5 tile p-0  rounded-4 shadow">
-			<div class="blur-load">
-				<img class="img-fluid img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
-			</div>
-			<div class="wrapper  h-100 bg-main-blue opacity-50"></div>
-			<div class="content w-75">
-				<h1 class="text-white text-center py-3">Foci</h1>
-				<p class="text-white">
-					Foci – 5+1 fő/csapat + maximum 4 csere, 2*12
-					perces meccsekkel (a jelentkező csapatok
-					számától függően több csoportban körmérkőzést
-					szervezünk, majd a legjobb 8 csapat kieséses
-					rendszerben játszik tovább egészen a döntőkig)
-				</p>
-				<div class="btn btn-outline-warning rounded-0 btn-xl-lg mb-2">
-					Játékszabály
-				</div>
-			</div>
-		</div>
-		<div class="col-12 col-xl-5 tile p-0  rounded-4 shadow">
-			<div class="blur-load">
-				<img class="img-fluid img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
+				<img class="img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
 			</div>
 			<div class="wrapper  h-100 bg-main-blue opacity-50"></div>
 			<div class="content w-75">
@@ -643,6 +643,13 @@
 
 	#rule-tiles #tiles .tile img {
 		transition: all .4s ease-in-out;
+		width: 100%;
+	}
+
+	@media (max-width: 768px) {
+		#rule-tiles #tiles .tile img {
+		width: 135% !important;
+	}
 	}
 
 
