@@ -117,12 +117,17 @@ function checkValidators(options, inputValue, targetElement) {
           const nameParts = inputValue.split(" ");
 
 
-          if (inputValue !== "" && nameParts.length < 2) {
+          if (inputValue !== "" && !nameParts[1]) {
             errors.push(`Az mező értékének minimum 2 szóból kell állnia`);
             targetElement.setCustomValidity(
               `Az mező értékének minimum 2 szóból kell állnia`
             );
+
             // Itt megteheted az egyéb teendőket, például hibaüzenet megjelenítése
+          } else {
+            targetElement.setCustomValidity(
+              ``
+            );
           }
         }
         break;
