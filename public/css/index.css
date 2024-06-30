@@ -66,6 +66,18 @@
 [data-bs-theme=dark] .dark-border-main-blue {
   border-color: #004785 !important;
 }
+[data-bs-theme=dark] .dark-bg-main-orange {
+  background-color: #FBA500 !important;
+}
+[data-bs-theme=dark] .dark-bg-hover-main-orange:hover {
+  background-color: #FBA500 !important;
+}
+[data-bs-theme=dark] .dark-text-main-orange {
+  color: #FBA500 !important;
+}
+[data-bs-theme=dark] .dark-border-main-orange {
+  border-color: #FBA500 !important;
+}
 [data-bs-theme=dark] .dark-bg-light-blue {
   background-color: #3A7EBA !important;
 }
@@ -2742,6 +2754,18 @@
 }
 [data-bs-theme=light] .light-border-main-blue {
   border-color: #004785 !important;
+}
+[data-bs-theme=light] .light-bg-main-orange {
+  background-color: #FBA500 !important;
+}
+[data-bs-theme=light] .light-bg-hover-main-orange:hover {
+  background-color: #FBA500 !important;
+}
+[data-bs-theme=light] .light-text-main-orange {
+  color: #FBA500 !important;
+}
+[data-bs-theme=light] .light-border-main-orange {
+  border-color: #FBA500 !important;
 }
 [data-bs-theme=light] .light-bg-light-blue {
   background-color: #3A7EBA !important;
@@ -6028,6 +6052,10 @@
   background-color: #004785 !important;
 }
 
+.bg-main-orange {
+  background-color: #FBA500 !important;
+}
+
 .bg-light-blue {
   background-color: #3A7EBA !important;
 }
@@ -6918,6 +6946,10 @@
 
 .border-main-blue {
   border-color: #004785 !important;
+}
+
+.border-main-orange {
+  border-color: #FBA500 !important;
 }
 
 .border-light-blue {
@@ -7812,6 +7844,10 @@
   color: #004785;
 }
 
+.main-orange {
+  color: #FBA500;
+}
+
 .light-blue {
   color: #3A7EBA;
 }
@@ -8702,6 +8738,10 @@
 
 .hover-bg-main-blue:hover {
   background-color: #004785 !important;
+}
+
+.hover-bg-main-orange:hover {
+  background-color: #FBA500 !important;
 }
 
 .hover-bg-light-blue:hover {
@@ -9596,6 +9636,10 @@
   color: #004785;
 }
 
+.hover-main-orange:hover {
+  color: #FBA500;
+}
+
 .hover-light-blue:hover {
   color: #3A7EBA;
 }
@@ -10486,6 +10530,10 @@
 
 .hover-border-main-blue:hover {
   border-color: #004785 !important;
+}
+
+.hover-border-main-orange:hover {
+  border-color: #FBA500 !important;
 }
 
 .hover-border-light-blue:hover {

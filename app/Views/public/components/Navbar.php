@@ -1,6 +1,6 @@
 <nav class="navbar fixed fixed-top bg-main-gray navbar-expand-lg navbar-light py-3">
   <div class="container-fluid">
-    <a class="navbar-brand max-w-200" href="#">
+    <a class="navbar-brand max-w-200" href="/">
       <img src="/public/assets/images/icons/logo.png" class="img-fluid w-100" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,33 +9,33 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-xl-flex w-100 align-items-xl-center justify-content-end">
         <li class="nav-item ">
-          <a class="nav-link main-blue  mx-lg-3" href="/">MENEKÜLÉSI ÚTVONAL</a>
+          <a class="nav-link main-blue hover-blue-900 mx-lg-3" href="/">MENEKÜLÉSI ÚTVONAL</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link main-blue  mx-lg-3" href="/">HELYSZÍNTÉRKÉP</a>
+          <a class="nav-link main-blue  hover-blue-900  mx-lg-3" href="/">HELYSZÍNTÉRKÉP</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link main-blue  mx-lg-3" href="/">PONTOZÁS</a>
+          <a class="nav-link main-blue  hover-blue-900  mx-lg-3" href="/">PONTOZÁS</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link main-blue  mx-lg-3" href="/">JELENTKEZÉS</a>
+          <a class="nav-link main-blue  hover-blue-900  mx-lg-3" href="/">JELENTKEZÉS</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link main-blue mx-3 mx-lg-0" href="/">IMPRESSZUM</a>
+          <a class="nav-link main-blue  hover-blue-900 mx-3 mx-lg-0" href="/">IMPRESSZUM</a>
         </li>
         <li class="nav-item ">
-          
-            <div class="d-flex  align-items-center justify-content-center">
-              <div class="form-check form-switch">
-                <input type="checkbox" class="form-check-input checkbox text-2xl" role="switch" id="theme-toggle">
-                <label for="theme-toggle" class="dark-bg-sky-700 bg-gray-300 checkbox-label">
-                  <i class="fas fa-moon"></i>
-                  <i class="fas fa-sun"></i>
-                  <span class="ball"></span>
-                </label>
-              </div>
+
+          <div class="d-flex  align-items-center justify-content-center">
+            <div class="form-check form-switch">
+              <input type="checkbox" class="form-check-input checkbox text-2xl" role="switch" id="theme-toggle">
+              <label for="theme-toggle" class="dark-bg-sky-700 bg-gray-300 checkbox-label">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <span class="ball"></span>
+              </label>
             </div>
-          
+          </div>
+
         </li>
         </li>
       </ul>

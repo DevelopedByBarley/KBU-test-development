@@ -48,29 +48,18 @@
 			<section class="py-5">
 				<ul class="timeline">
 					<li class="timeline-item mb-5">
-						<h5 class="fw-bold">Our company starts its operations</h5>
-						<p class="text-muted mb-2 fw-bold">11 March 2020</p>
-						<p class="text-muted">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-							necessitatibus adipisci, ad alias, voluptate pariatur officia
-							repellendus repellat inventore fugit perferendis totam dolor
-							voluptas et corrupti distinctio maxime corporis optio?
-						</p>
+						<h5 class="fw-bold main-blue dark-text-main-orange">07:30 - 08:30</h5>
+						<p class="mb-2 fw-bold">Helyszíni regisztráció, reggeli</p>
 					</li>
 
 					<li class="timeline-item mb-5">
-						<h5 class="fw-bold">First customer</h5>
-						<p class="text-muted mb-2 fw-bold">19 March 2020</p>
-						<p class="text-muted">
-							Quisque ornare dui nibh, sagittis egestas nisi luctus nec. Sed
-							aliquet laoreet sapien, eget pulvinar lectus maximus vel.
-							Phasellus suscipit porta mattis.
-						</p>
+						<h5 class="fw-bold main-blue dark-text-main-orange">07:30 - 08:30</h5>
+						<p class="mb-2 fw-bold">Megnyitó, bajnokságok menetének ismertetése</p>
 					</li>
 
 					<li class="timeline-item mb-5">
-						<h5 class="fw-bold">Our team exceeds 10 people</h5>
-						<p class="text-muted mb-2 fw-bold">24 June 2020</p>
+						<h5 class="fw-bold main-blue dark-text-main-orange">07:30 - 08:30</h5>
+						<p class="mb-2 fw-bold">Sportbajnokságok és egyéb programok</p>
 						<p class="text-muted">
 							Orci varius natoque penatibus et magnis dis parturient montes,
 							nascetur ridiculus mus. Nulla ullamcorper arcu lacus, maximus
@@ -81,8 +70,8 @@
 					</li>
 
 					<li class="timeline-item mb-5">
-						<h5 class="fw-bold">Earned the first million $!</h5>
-						<p class="text-muted mb-2 fw-bold">15 October 2020</p>
+						<h5 class="fw-bold main-blue dark-text-main-orange">07:30 - 08:30</h5>
+						<p class="tmb-2 fw-bold">Sportbajnokságok és egyéb programok</p>
 						<p class="text-muted">
 							Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed
 							et urna sit amet massa dapibus tristique non finibus ligula. Nam
@@ -98,22 +87,22 @@
 			<div class="row">
 				<div class="col-12 col-md-6 my-2">
 					<div class="blur-load">
-						<img src="/public/assets/images/polaroid1.png" loading="lazy" class="img-fluid program-img" alt="">
+						<img src="/public/assets/images/polaroid1.png" loading="lazy" class="img-fluid timeline-img" alt="">
 					</div>
 				</div>
 				<div class="col-12 col-md-6 my-2">
 					<div class="blur-load">
-						<img src="/public/assets/images/polaroid2.png" loading="lazy" class="img-fluid program-img" alt="">
+						<img src="/public/assets/images/polaroid2.png" loading="lazy" class="img-fluid timeline-img" alt="">
 					</div>
 				</div>
 				<div class="col-12 col-md-6 my-2">
 					<div class="blur-load">
-						<img src="/public/assets/images/polaroid3.png" loading="lazy" class="img-fluid program-img" alt="">
+						<img src="/public/assets/images/polaroid3.png" loading="lazy" class="img-fluid timeline-img" alt="">
 					</div>
 				</div>
 				<div class="col-12 col-md-6 my-2">
 					<div class="blur-load">
-						<img src="/public/assets/images/polaroid4.png" loading="lazy" class="img-fluid program-img" alt="">
+						<img src="/public/assets/images/polaroid4.png" loading="lazy" class="img-fluid timeline-img" alt="">
 					</div>
 				</div>
 			</div>
@@ -156,8 +145,8 @@
 			</h1>
 		</div>
 	</div>
-	<div class="row gap-4 d-flex align-items-center justify-content-center" id="tiles">
-		<div class="col-12 col-xl-5 tile p-0 rounded-4 shadow min-h-300">
+	<div class="row gap-4 d-flex justify-content-center" id="tiles">
+		<div class="col-12 col-lg-5 tile p-0 rounded-4 shadow min-h-300">
 			<div class="blur-load">
 				<img class="img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
 			</div>
@@ -176,57 +165,55 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-12 col-xl-5 tile p-0  rounded-4 shadow">
+		<div class="col-12 col-lg-5 tile p-0  rounded-4 shadow">
 			<div class="blur-load">
-				<img class="img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
+				<img class="img" loading="lazy" src="/public/assets/images/pexels-denniz-futalan-339724-2306898.jpg" alt="..." />
 			</div>
 			<div class="wrapper h-100 bg-main-blue opacity-50"></div>
 			<div class="content w-75">
-				<h1 class="text-white text-center py-3">Foci</h1>
+				<h1 class="text-white text-center py-3">Csocsó</h1>
 				<p class="text-white">
-					Foci – 5+1 fő/csapat + maximum 4 csere, 2*12
-					perces meccsekkel (a jelentkező csapatok
-					számától függően több csoportban körmérkőzést
-					szervezünk, majd a legjobb 8 csapat kieséses
-					rendszerben játszik tovább egészen a döntőkig)
+					Csocsó – 2 fő/csapat, 10 gól vagy 10 perc/meccs
+					, amelyik előbb bekövetkezik,
+					egyenes kieséssel
 				</p>
 				<div class="btn btn-outline-warning rounded-0 btn-xl-lg mb-2">
 					Játékszabály
 				</div>
 			</div>
 		</div>
-		<div class="col-12 col-xl-5 tile p-0  rounded-4 shadow">
+		<div class="col-12 col-lg-5 tile p-0  rounded-4 shadow">
 			<div class="blur-load">
-				<img class="img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
+				<img class="img" loading="lazy" src="/public/assets/images/pexels-kampus-8813526.jpg" alt="..." />
 			</div>
 			<div class="wrapper  h-100 bg-main-blue opacity-50"></div>
 			<div class="content w-75">
-				<h1 class="text-white text-center py-3">Foci</h1>
+				<h1 class="text-white text-center py-3">Sorverseny</h1>
 				<p class="text-white">
-					Foci – 5+1 fő/csapat + maximum 4 csere, 2*12
-					perces meccsekkel (a jelentkező csapatok
-					számától függően több csoportban körmérkőzést
-					szervezünk, majd a legjobb 8 csapat kieséses
-					rendszerben játszik tovább egészen a döntőkig)
+					Lorem ipsum dolor sit amet, consectetur adipiscing
+					elit. Fusce pretium auctor quam,
+					ut pharetra justo tristique eu.
+					Praesent elit sem, vulputate
+					sit amet ultrices eget, accumsan ac ligula.
 				</p>
 				<div class="btn btn-outline-warning rounded-0 btn-xl-lg mb-2">
 					Játékszabály
 				</div>
 			</div>
 		</div>
-		<div class="col-12 col-xl-5 tile p-0  rounded-4 shadow">
+		<div class="col-12 col-lg-5 tile p-0 rounded-4 shadow">
 			<div class="blur-load">
-				<img class="img" loading="lazy" src="/public/assets/images/pexels-expressivestanley-3148452.jpg" alt="..." />
+				<img class="img" loading="lazy" src="/public/assets/images/pexels-joshsorenson-976873.jpg" alt="..." />
 			</div>
 			<div class="wrapper  h-100 bg-main-blue opacity-50"></div>
 			<div class="content w-75">
-				<h1 class="text-white text-center py-3">Foci</h1>
+				<h1 class="text-white text-center py-3">Ping Pong</h1>
 				<p class="text-white">
-					Foci – 5+1 fő/csapat + maximum 4 csere, 2*12
-					perces meccsekkel (a jelentkező csapatok
-					számától függően több csoportban körmérkőzést
-					szervezünk, majd a legjobb 8 csapat kieséses
-					rendszerben játszik tovább egészen a döntőkig)
+					Ping-pong – 2 fő/csapat, egyenes kieséses
+					rendszerben, 1 nyert szettig (21 pont) vagy
+					15 percig, amelyik előbb bekövetkezik,
+					az elődöntők, a bronzmeccs és a döntő
+					két nyert szettig tartanak
 				</p>
 				<div class="btn btn-outline-warning rounded-0 btn-xl-lg mb-2">
 					Játékszabály
@@ -355,12 +342,12 @@
 	}
 
 
-	.program-img {
+	.timeline-img {
 		transition: all .4s ease-in-out;
 
 	}
 
-	.program-img:hover {
+	.timeline-img:hover {
 		transform: scale(1.05) rotate(-5deg) translateY(-5%);
 		box-shadow: #292c35;
 	}
@@ -615,6 +602,7 @@
 
 	.timeline .timeline-item:after {
 		background-color: hsl(0, 0%, 90%);
+		top: 5px;
 		left: -38px;
 		border-radius: 50%;
 		height: 11px;
@@ -646,10 +634,10 @@
 		width: 100%;
 	}
 
-	@media (max-width: 768px) {
+	@media (max-width: 1366px) {
 		#rule-tiles #tiles .tile img {
-		width: 135% !important;
-	}
+			width: 135% !important;
+		}
 	}
 
 
@@ -670,7 +658,12 @@
 
 	#rule-tiles #tiles .tile .content {
 		position: absolute;
+		height: 100%;
 		top: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		z-index: 11;
